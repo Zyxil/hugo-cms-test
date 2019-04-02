@@ -1,4 +1,4 @@
-baseURL = "http://demo.example.com/"
+baseURL = "http://demo.themefisher.com/themefisher/biztrox-hugo/"
 languageCode = "en-us"
 title = "Biztrox"
 theme = "biztrox-hugo"
