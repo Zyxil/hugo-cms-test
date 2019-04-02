@@ -1,6 +1,6 @@
-baseURL = "https://demo.ivytek.com/"
+baseURL = "https://brave-pare-827983.netlify.com/"
 languageCode = "en-us"
-title = "IvyTek"
+title = "IvyTek, Inc."
 theme = "biztrox-hugo"
 summaryLength = "20"
 
@@ -51,8 +51,8 @@ summaryLength = "20"
 
 [params]
 logo = "images/logo.png"
-mail = "info@companyname.com"
-mobile = "1234565523"
+mail = "info@ivytek.com"
+mobile = "904.536.6642"
 home = "Home"
 # google map
 gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
