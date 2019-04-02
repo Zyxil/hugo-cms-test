@@ -1,6 +1,6 @@
-baseURL = "http://demo.example.com/"
+baseURL = "https://demo.ivytek.com/"
 languageCode = "en-us"
-title = "Biztrox"
+title = "IvyTek"
 theme = "biztrox-hugo"
 summaryLength = "20"
 
