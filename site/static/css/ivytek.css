@@ -1,0 +1,190 @@
+/* global */
+
+::selection {
+  background: #A5CC43;
+  color: #fff;
+}
+
+a:hover {
+  color: #A5CC43;
+}
+
+a.text-dark:hover,
+a.text-white:hover {
+  color: #A5CC43 !important;
+}
+
+.section {
+  padding: 50px 0;
+}
+
+.section-title-border::before {
+  background: #A5CC43;
+}
+
+.section-title-border::after {
+  border: 2px solid #A5CC43;
+}
+
+.section-title-border-half::before {
+  border: 2px solid #A5CC43;
+}
+
+.section-title-border-half::after {
+  background: #A5CC43;
+}
+
+.text-primary {
+  color: #A5CC43 !important;
+}
+
+.square-icon {
+  background: #A5CC43;
+}
+.round-icon {
+  color: #A5CC43;
+}
+
+.section-title-border-gray::before {
+  background: #A5CC43;
+}
+
+.section-title-border-gray::after {
+  border: 2px solid #A5CC43;
+}
+
+.work-slider .slick-dots li.slick-active button {
+  border-color: #A5CC43;
+}
+
+.overlay-primary::before {
+  background: #A5CC43;
+}
+
+.testimonial-slider .prevArrow,
+.testimonial-slider .nextArrow {
+  color: #A5CC43;
+}
+
+.testimonial-icon {
+  color: #A5CC43;
+}
+
+.footer-links li a:hover {
+  color: #A5CC43;
+}
+
+.btn-subscribe {
+  background: #A5CC43;
+}
+
+.back-to-top:hover {
+  border-color: #A5CC43;
+}
+
+.social-icon-outline:hover {
+  border-color: #A5CC43;
+}
+
+
+/* header and navbar */
+
+.top-header ul li a span {
+  color: #A5CC43;
+}
+
+.navigation .navbar .nav-item .nav-link:hover {
+  color: #A5CC43;
+}
+
+.navigation .navbar .dropdown-item:hover {
+  color: #A5CC43;
+}
+
+.post-content ol li::before{
+  color: #A5CC43;
+}
+
+.work-slider .slick-dots li.slick-active button {
+  border-color: #A5CC43;
+}
+
+.project-menu ul li.active {
+  background: #A5CC43;
+}
+
+.project-info a:hover {
+  color: #A5CC43;
+}
+
+.project-info a:hover {
+  color: #A5CC43;
+}
+
+.project-content h6::before{
+  color: #A5CC43;
+}
+
+.pagination .page-item .page-link:hover {
+  color: #A5CC43;
+}
+
+.pagination .page-item.active .page-link {
+  color: #A5CC43;
+}
+
+.pagination .prev:hover,
+.pagination .next:hover {
+  border-color: #A5CC43;
+}
+
+.pagination .prev:hover .page-link,
+.pagination .next:hover .page-link {
+  color: #A5CC43;
+}
+
+.post-slider .prevArrow,
+.post-slider .nextArrow {
+  color: #A5CC43;
+}
+
+/* buttons */
+
+.btn-primary {
+  background: #A5CC43;
+  color: #fff;
+}
+
+.btn-primary:active {
+  background: #A5CC43 !important;
+}
+
+.btn-primary:hover {
+  background: #246B4A;
+  color: #fff;
+}
+
+.btn-secondary {
+  background: #303032;
+  color: #fff;
+}
+
+.btn-secondary:active {
+  background: #A5CC43 !important;
+}
+
+.btn-secondary:hover {
+  background: #A5CC43 !important;
+  background: #246B4A;
+}
+
+.card:hover .card-body-2 {
+  background: #A5CC43;
+}
+
+.card:hover .card-body-2::before {
+  background: #A5CC43;
+}
+
+
+

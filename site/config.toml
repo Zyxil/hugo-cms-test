@@ -8,49 +8,70 @@ summaryLength = "20"
 [menu]
     
     [[menu.nav]]
-    name = "About"
-    URL = "/about"
-    weight = 2
-    
-    [[menu.nav]]
-    name = "Service"
-    URL = "/service"
+    name = "IvyTek Finance"
+    URL = "/finance"
     weight = 3
     
     [[menu.nav]]
-    name = "Blog"
-    URL = "/blog"
+    name = "Industries"
+    URL = "/industries"
     weight = 4
     
     [[menu.nav]]
-    name = "Team"
-    URL = "/team"
-    weight = 6
+    name = "Services"
+    weight = 5
+    hasChildren = true
+
+	    [[menu.nav]]
+	    parent = "Services"
+	    name = "Professional Services"
+	    URL = "/project"
+		weight = 6
+
+	    [[menu.nav]]
+	    parent = "Services"
+	    name = "Subscription Support"
+	    URL = "/industries"
+		weight = 7
+
+    
+    
+    
     
     [[menu.nav]]
-    name = "Pricing"
-    URL = "/pricing"
-    weight = 7
-    
-    [[menu.nav]]
-    name = "Contact"
-    URL = "/contact"
+    name = "Support"
+    URL = "/industries"
     weight = 8
+    
+   
+    
 
     [[menu.nav]]
-    weight = 9
-    name = "Pages"
+    name = "About Us"
+    weight = 10
     hasChildren = true
 
         [[menu.nav]]
-        parent = "Pages"
-        name = "Project"
-        URL = "/project"
+        parent = "About Us"
+        name = "About IvyTek"
+        URL = "/about"
+    	weight = 11
 
+        [[menu.nav]]
+        parent = "About Us"
+        name = "Meet the Team"
+        URL = "/team"
+    	weight = 12
+
+        [[menu.nav]]
+        parent = "About Us"
+        name = "Contact Us"
+        URL = "/contact"
+    	weight = 13
 
 
 [params]
-logo = "images/logo.png"
+logo = "images/IvyTek-Leaf-Logo-200.png" 
 mail = "info@ivytek.com"
 mobile = "904.536.6642"
 home = "Home"
@@ -59,12 +80,14 @@ gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSp
 mapLatitude = "51.5223477"
 mapLongitude = "-0.1622023"
 mapMarker = "images/marker.png"
+
 # Google Analitycs
-googleAnalitycsID = "Your ID"
+#googleAnalitycsID = "Your ID"
+
 
 # mailchimp subsciption
-mailchimpFormAction = "https://themefisher.us9.list-manage.com/subscribe/post?u=f95ece2732a6e9925f2e70a61&amp;id=b1e227529e" # replace this url with yours
-mailchimpFormName = "b_f95ece2732a6e9925f2e70a61_b1e227529e" # replace this code with yours
+#mailchimpFormAction = "https://themefisher.us9.list-manage.com/subscribe/post?u=f95ece2732a6e9925f2e70a61&amp;id=b1e227529e" # replace this url with yours
+#mailchimpFormName = "b_f95ece2732a6e9925f2e70a61_b1e227529e" # replace this code with yours
 
 
   # meta data
@@ -79,8 +102,8 @@ mailchimpFormName = "b_f95ece2732a6e9925f2e70a61_b1e227529e" # replace this code
     # Quote Button
     [params.quoteBtn]
     enable = true
-    btnText = "get a quote"
-    btnURL = "#"
+    btnText = "Contact Us"
+    btnURL = "/contact"
 
     # about
     [params.about]
