@@ -20,7 +20,7 @@ summaryLength = "20"
     [[menu.nav]]
     name = "Services"
     weight = 5
-    hasChildren = true
+    hasChildren = true  
 
 	    [[menu.nav]]
 	    parent = "Services"

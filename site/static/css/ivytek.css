@@ -1,4 +1,10 @@
-/* global */
+/* ivytek classes */
+.text-ivy-hero{
+  font-size: 18px;
+}
+
+
+/* global overrides */
 
 ::selection {
   background: #A5CC43;
@@ -148,7 +154,10 @@ a.text-white:hover {
   color: #A5CC43;
 }
 
-/* buttons */
+.hero-slider .prevArrow:hover,
+.hero-slider .nextArrow:hover {
+  background: rgba(165, 204, 67, 0.5);
+}
 
 .btn-primary {
   background: #A5CC43;
@@ -186,5 +195,12 @@ a.text-white:hover {
   background: #A5CC43;
 }
 
+.section-title-border-half-white::before {
+  border: 2px solid #A5CC43;
+}
+
+.section-title-border-half-white::after {
+  background: #A5CC43;
+}
 
 

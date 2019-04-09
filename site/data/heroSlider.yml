@@ -1,44 +1,44 @@
 enable : true
 sliderItem:
-  - subHeading : We are here to
-    heading : Planning Business
+  - subHeading : Learn About
+    heading : IvyTek Finance
     description : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.
-    bgImage : images/banner/banner-1.jpg
-    dataIcon : ti-comments
-    dataText : Consultation
-    btn : 
-      enable : true
-      btnText: More details
-      btnURL : '#'
-      
-  - subHeading : Get your
-    heading : Business Consultant
-    description : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.
-    bgImage : images/banner/banner-2.jpg
-    dataIcon : ti-bar-chart
-    dataText : Marketting
-    btn : 
-      enable : true
-      btnText: More details
-      btnURL : '#'
-      
-  - subHeading : Start your
-    heading : Future Plan
-    description : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.
-    bgImage : images/banner/banner-3.jpg
+    bgImage : images/banner/StockSnap_D8E3D6630E-banner.png
     dataIcon : ti-money
-    dataText : Finance
+    dataText : Loan Management
+    btn : 
+      enable : true
+      btnText: More details
+      btnURL : '/finance'
+      
+  - subHeading : Financial Software for multiple
+    heading : Industries
+    description : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.
+    bgImage : images/banner/StockSnap_LFTEMAVW1O-banner.png
+    dataIcon : ti-bar-chart
+    dataText : Industries
     btn : 
       enable : true
       btnText: More details
       btnURL : '#'
       
-  - subHeading : We are always
-    heading : Be Inspired By Best
+  - subHeading : Implement solutions with our
+    heading : Professional Services
     description : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.
-    bgImage : images/banner/banner-4.jpg
+    bgImage : images/banner/StockSnap_01VIO0CER7-banner.png
+    dataIcon : ti-comments
+    dataText : Professional Services
+    btn : 
+      enable : true
+      btnText: More details
+      btnURL : '#'
+      
+  - subHeading : Optimize Salesforce with
+    heading : Administration Services
+    description : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.
+    bgImage : images/banner/StockSnap_DOLNAISHLZ-banner.png
     dataIcon : ti-package
-    dataText : Human Resources
+    dataText : Salesforce Administration
     btn : 
       enable : true
       btnText: More details
